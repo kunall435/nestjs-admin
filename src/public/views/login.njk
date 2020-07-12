@@ -3,7 +3,7 @@
 {% extends 'base.njk'%}
 
 {% block stylesheets %}
-<link rel="stylesheet" href="/admin-static/css/login.css">
+<link  href="/admin-static/css/login.css">
 {% endblock %}
 
 {% block body %}
@@ -22,7 +22,7 @@
             </div>
           {% else %}
             <div class="alert alert-info">
-              Please provide admin credentials to access the administration
+              Please provide asjdsjdajsdh admin credentials to access the administration
             </div>
           {% endif %}
           <form method="POST" action="{{ "login" | adminUrl() }}">

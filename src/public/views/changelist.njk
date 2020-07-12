@@ -5,7 +5,8 @@
 {% extends 'base.njk'%}
 
 {% block stylesheets %}
-<link rel="stylesheet" href="/admin-static/css/changelist.css">
+<link href="/admin-static/css/changelist.css">
+<script type="text/javascript" src="/admin-static/js/sort-table.js"></script>
 {% endblock %}
 
 {% block body %}
@@ -47,7 +48,7 @@
 
   <div class="row">
     <div class="col-12">
-      <table class="table table-bordered table-striped entity-table">
+      <table class="table table-bordered table-striped entity-table js-sort-table">
 
         {# If there's a `listDisplay` config, we'll display columns with the properties of the entity #}
         {% if adminEntity.listDisplay %}
