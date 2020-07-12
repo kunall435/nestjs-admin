@@ -1,6 +1,6 @@
 {
   "name": "nestjs-admin",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "license": "MIT",
   "author": "William Duclot",
   "repository": {
@@ -85,7 +85,7 @@
     "tsc-watch": "2.2.1",
     "tslint": "^5.20.0",
     "typeorm": "^0.2.19",
-    "typescript": "3.5.1"
+    "typescript": "3.8.3"
   },
   "jest": {
     "moduleFileExtensions": [
